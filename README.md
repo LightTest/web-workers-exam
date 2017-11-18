@@ -32,17 +32,17 @@ In a script you create new worker:
       
  In a worker script you need to create a function for receiving data:
  
- onmessage = function(e) {
- 
-   console.log('Message received');
-    console.log(e.data);
-    
-    postMessage('Transfer Completed');
- 
- 
- }
+        onmessage = function(e) {
+
+          console.log('Message received');
+           console.log(e.data);
+
+           postMessage('Transfer Completed');
+
+
+        }
  
   where you give all data received from a script to a console and of course you sending something back to the script using:
   
-  postMessage('Transfer Completed');
+         postMessage('Transfer Completed');
        
