@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    text-align: center;
+}
+
+ h4 {
+    margin-top: 2rem;
+}
+
+.result {
+text-align: center;
+}
+
+.nicely {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: azure;
+    border: 1px solid gray;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    margin-top: 2rem;
+    font-weight: bold;
+    background-color: chocolate;
+    border: 2px solid yellow;
+    color:darkcyan;
+}
+
+@supports (display: flex) {
+    
+    .result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    }
+    
+    
+}
